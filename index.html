@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Exercise Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <button id="myPushupsButton">Pushups</button>
+    <button id="mySitupsButton">Situps</button>
+  </div>
+  <div>
+    <button id="myPrevSessionButton">Prev</button>
+    session: <span id="mySession">session name</span>
+    <button id="myNextSessionButton">Next</button>
+  </div>
+  <div id="myLabel">Ready to start???</div>
+  <div><button id="myGoButton">Go</button></div>
+  <div id="Clock"></div>
+  <div id="mySet">...</div>
+  <div class="link"><a href="http://www.hundredpushups.com/week4.html" target="_blank">pushups site</a></div>
+  <div class="link" id="fork"><a href="https://github.com/kaicarver/pushups/">fork me on Github!</a></div>
+  <pre>TODO:
+    - ticking time on current step, elapsed time on each finished step (see sedfugit)
+    - add optional sound/notification to remind when rest time is up (you need it to encourage a button press at every step)
+    - remember current step in a cookie
+    - do a date calculation to know if workout overdue
+    - later: monitor progress
+  </pre>
+
+  <script type="text/javascript" src="database.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
